@@ -1,3 +1,5 @@
+# Basic example of how to use the MCP client with SmolAgents and Langchain tools
+
 from smolagents import ToolCollection
 from langchain_mcp_adapters.tools import load_mcp_tools
 
@@ -26,7 +28,7 @@ async def run_langchain_tools():
 
 
 if __name__ == "__main__":
-    
+
     print("Starting SmoleAgent tools...")
     run_smolagents_tools()
 
