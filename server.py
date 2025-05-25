@@ -21,4 +21,4 @@ def weather_prompt(location: str) -> str:
 
 if __name__ == "__main__":
     # Start the server
-    mcp.run(transport="sse", port=8000)
+    mcp.run()
