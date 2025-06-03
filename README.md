@@ -22,6 +22,16 @@ Provide read-only access to data sources, allowing the model to get context with
 **Prompts**
 Pre-defined templates that guide the interaction between the user, model, and server capabilities.
 
+### MCP with Gradio
+Creating an MCP Server using Gradio:
+
+`python gradio_server.py`
+
+1. Launches Gradio web interface for user interation at `http:localhost:port`
+2. Launches an MCP server at `http:localhost:port/gradio_api/mcp/sse`
+
+![alt text](gradio_app.png)
+
 ### Error Handling
 You might encounter ❌  MCP Inspector PORT IS IN USE at http://127.0.0.1:6274 ❌ when terminating the server and relaunching.
 
